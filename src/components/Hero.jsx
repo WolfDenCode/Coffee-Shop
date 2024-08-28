@@ -25,7 +25,7 @@ const Hero = ({
         <h2 className="text-2xl md:text-3xl mb-2">{subTitle}</h2>
         <p className="text-lg md:text-xl max-w-2xl mt-5">{description}</p>
         <a
-          className="text-center uppercase text-l font-bold transition-all bg-black w-40 h-16 flex items-center justify-center mt-4 text-white rounded-md"
+          className="text-center uppercase text-xl font-bold transition-all bg-stone-900 w-60 h-16 flex items-center justify-center mt-4 text-white rounded-md hover:text-yellow-700 hover:bg-white"
           type="button"
           href="process"
         >

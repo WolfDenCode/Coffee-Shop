@@ -6,10 +6,12 @@ import heroImage from "./assets/images/hero.jpg";
 import Process from "./components/Process";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 import order from "./assets/images/order.jpg";
 import wait from "./assets/images/await.jpg";
 import enjoy from "./assets/images/enjoy.jpg";
+import about from "./assets/images/about.jpg";
 function App() {
   const cardData = [
     {
@@ -39,6 +41,13 @@ function App() {
         bgSrc={heroImage}
       ></Hero>
       <Process title={"Our Process"} cardData={cardData}></Process>
+      <About
+        image={about}
+        overlayOpacity={0.7}
+        title="About Our Coffee Shop"
+        subtitle="Crafted with Love"
+        description="We pride ourselves on selecting the finest beans and providing a warm atmosphere for all coffee lovers."
+      />
       <Footer></Footer>
     </>
   );

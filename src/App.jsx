@@ -7,6 +7,7 @@ import Process from "./components/Process";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 import order from "./assets/images/order.jpg";
 import wait from "./assets/images/await.jpg";
@@ -48,6 +49,7 @@ function App() {
         subtitle="Crafted with Love"
         description="We pride ourselves on selecting the finest beans and providing a warm atmosphere for all coffee lovers."
       />
+      <Contact></Contact>
       <Footer></Footer>
     </>
   );

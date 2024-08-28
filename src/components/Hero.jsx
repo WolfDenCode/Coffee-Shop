@@ -12,7 +12,7 @@ const Hero = ({
     <div className="relative w-full h-screen">
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-right-bottom md:bg-center"
         style={{ backgroundImage: `url(${bgSrc})` }}
       >
         {/* Black overlay */}
